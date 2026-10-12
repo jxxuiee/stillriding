@@ -1,0 +1,1420 @@
+body {
+    margin: 0;
+    background: white;
+    overflow-x: hidden;
+}
+
+main {
+    width: 100%;
+}
+
+#image-mode {
+    width: 100%;
+}
+
+.childhood {
+    position: relative;
+    width: 100%;
+    min-height: 4000px;
+
+    background-image: url("images/sky.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.childhood {
+    position: relative;
+
+    min-height: 4000px;
+
+    background-image: url("images/sky.png");
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    background-position: top center;
+}
+
+.bike-pov {
+    position: fixed;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 100vw;
+    max-width: none;
+
+    z-index: 100;
+    pointer-events: auto;
+}
+
+.bike-pov:hover {
+    animation: bikeVibrate 0.2s infinite;
+}
+
+@keyframes bikeVibrate {
+    0% {
+        transform: translateX(-50%) translateY(0px) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(-50%) translateY(-2px) rotate(-0.3deg);
+    }
+
+    50% {
+        transform: translateX(-50%) translateY(1px) rotate(0.3deg);
+    }
+
+    75% {
+        transform: translateX(-50%) translateY(-1px) rotate(0.2deg);
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(0px) rotate(0deg);
+    }
+}
+
+.sun {
+    position: absolute;
+    width: 400px;
+
+    top: 60px;
+    left: 4%;
+}
+
+.drawing-house {
+    position: absolute;
+    width: 600px;
+
+    top: 100px;
+    left: 70%;
+}
+
+
+.brotherandme {
+    position: absolute;
+    width: 900px;
+
+    top: 40px;
+    left: 30%;
+}
+
+.lego {
+    position: absolute;
+    width: 500px;
+
+    top: 800px;
+    left: 80%;
+}
+
+
+.paintpaper {
+     position: absolute;
+    width: 800px;
+
+    top: 1500px;
+    left: 50%;
+}
+.tapescrap {
+     position: absolute;
+    width: 800px;
+
+    top: 600px;
+    left: 10%;
+}
+
+.babyballoon {
+     position: absolute;
+    width: 800px;
+
+    top: 600px;
+    left: 10%;
+}
+
+.watercolor {
+      position: absolute;
+    width: 800px;
+
+    top: 2600px;
+    left: 10%;
+}
+
+.chairdrawing {
+     position: absolute;
+    width: 800px;
+
+    top: 2800px;
+    left: 10%;
+}
+
+
+.bandaid {
+     position: absolute;
+    width: 500px;
+
+    top: 2500px;
+    left: 30%;
+    transform: rotate(-15deg);
+}
+
+.camera {
+     position: absolute;
+    width: 500px;
+
+    top: 3500px;
+    left: 60%;
+    transform: rotate(-15deg);
+}
+
+.rainbow {
+     position: absolute;
+    width: 500px;
+
+    top: 3000px;
+    left: 10%;
+    transform: rotate(15deg);
+}
+
+.dreambigger {
+     position: absolute;
+    width: 300px;
+
+    top: 2000px;
+    left: 60%;
+    transform: rotate(15deg);
+}
+.dinosaur {
+     position: absolute;
+    width: 570px;
+
+    top: 2800px;
+    left: 60%;
+    transform: rotate(15deg);
+}
+
+.butterfly {
+     position: absolute;
+    width: 600px;
+
+    top: 3300px;
+    left: 10%;
+    transform: rotate(15deg);
+}
+
+.flower {
+     position: absolute;
+    width: 300px;
+
+    top: 3600px;
+    left: 50%;
+}
+/* adolescence section */
+
+.adolescence {
+    position: relative;
+    width: 100%;
+    min-height: 4000px;
+
+    background-image: url("images/redbackground.png");
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    background-position: top center;
+}
+
+
+.whoareyou {
+     position: absolute;
+    width: 600px;
+
+    top:90px;
+    left: 0.1%;
+}
+
+.quote {
+     position: absolute;
+    width: 900px;
+
+    top: 3100px;
+    left: 30%;
+}
+
+
+
+
+.stop {
+     position: absolute;
+    width: 700px;
+
+    top: 1900px;
+    left: 16%;
+
+
+}
+.soda {
+     position: absolute;
+    width: 400px;
+
+    top: 1500px;
+    left: 60%;
+}
+
+.curse {
+     position: absolute;
+    width: 500px;
+
+    top: 500px;
+    left: 20%;
+        transform: rotate(15deg);
+
+}
+.scrappaper {
+     position: absolute;
+    width: 600px;
+
+    top: 1000px;
+    left: 10%;
+}
+
+.discoball {
+     position: absolute;
+    width: 600px;
+
+    top: 800px;
+    left: 20%;
+}
+.higheel {
+     position: absolute;
+    width: 600px;
+
+    top: 900px;
+    left: 12%;
+}
+.womanbody {
+     position: absolute;
+    width: 300px;
+
+    top: 2700px;
+    left: 12%;
+}
+.spark {
+     position: absolute;
+    width: 300px;
+
+    top: 2300px;
+    left: 12%;
+}
+.smoking {
+     position: absolute;
+    width: 500px;
+
+    top: 2300px;
+    left: 60%;
+}
+.middlefinger {
+     position: absolute;
+    width: 300px;
+
+    top: 2300px;
+    left: 60%;
+}
+.alcohol {
+     position: absolute;
+    width: 200px;
+
+    top: 1160px;
+    left: 55%;
+}
+.brain {
+     position: absolute;
+    width: 400px;
+
+    top: 1360px;
+    left: 10%;
+}
+
+.alive {
+     position: absolute;
+    width: 300px;
+
+    top: 1460px;
+    left: 75%;
+}
+
+.pattern {
+     position: absolute;
+    width: 300px;
+
+    top: 2800px;
+    left: 50%;
+}
+
+
+.perfume {
+     position: absolute;
+    width: 300px;
+
+    top: 2500px;
+    left: 40%;
+}
+
+.lighter {
+     position: absolute;
+    width: 200px;
+
+    top: 1800px;
+    left: 8%;
+}
+
+.lip {
+     position: absolute;
+    width: 300px;
+
+    top: 2900px;
+    left: 30%;
+}
+
+
+.tiger {
+     position: absolute;
+    width: 250px;
+
+    top: 3100px;
+    left: 30%;
+}
+
+
+/* LAST SECTION OLD AGE */
+
+section.later-life {
+    display: block;
+    position: relative;
+    width: 100%;
+    min-height: 4000px;
+
+    background-image: url("images/laterlifebackground.png");
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    background-position: top center;
+}
+
+.clock {
+     position: absolute;
+    width: 900px;
+
+    top: 1100px;
+    left: 8%;
+}
+
+.path {
+     position: absolute;
+    width: 500px;
+
+    top: 700px;
+    left: 50%;
+}
+.womanwalking {
+     position: absolute;
+    width: 60px;
+
+    top: 700px;
+    left: 60%;
+}
+.trust {
+     position: absolute;
+    width: 400px;
+
+    top: 1000px;
+    left: 70%;
+}
+.coffee {
+     position: absolute;
+    width: 800px;
+
+    top: 100px;
+    left: 45%;
+}
+
+.memoriesbox {
+     position: absolute;
+    width: 400px;
+
+    top: 1900px;
+    left: 50%;
+}
+
+.alarm {
+     position: absolute;
+    width: 600px;
+
+    top: 2500px;
+    left: 20%;
+}
+
+.memories {
+     position: absolute;
+    width: 600px;
+
+    top: 900px;
+    left: 52%;
+}
+.dirtyhands {
+     position: absolute;
+    width: 400px;
+
+    top: 2500px;
+    left: 0.1%;
+}
+.working {
+     position: absolute;
+    width: 400px;
+
+    top: 2800px;
+    left: 52%;
+}
+.passport {
+     position: absolute;
+    width: 200px;
+
+    top: 1200px;
+    left: 62%;
+            transform: rotate(15deg);
+
+}
+.groceries {
+     position: absolute;
+    width: 540px;
+
+    top: 1900px;
+    left: 52%;
+}
+.brownbag {
+     position: absolute;
+    width: 400px;
+
+    top: 2500px;
+    left: 70%;
+}
+
+.suitcase {
+     position: absolute;
+    width: 400px;
+
+    top: 1900px;
+    left: 5%;
+}
+
+.love {
+     position: absolute;
+    width: 400px;
+
+    top: 700px;
+    left: 30%;
+}
+
+.mountain {
+     position: absolute;
+    width: 700px;
+
+    top: 3100px;
+    left: 30%;
+}
+.smallsteps {
+     position: absolute;
+    width: 700px;
+
+    top: 3300px;
+    left: 55%;
+}
+
+.adventureface {
+     position: absolute;
+    width: 500px;
+
+    top: 2900px;
+    left: 15%;
+}
+
+.duck {
+     position: absolute;
+    width: 400px;
+
+    top: 3400px;
+    left: 35%;
+}
+
+.camera2 {
+     position: absolute;
+    width: 400px;
+
+    top: 1600px;
+    left: 66%;
+}
+
+/* NAVIGATION */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: white;
+    z-index: 200;
+}
+
+.site-title {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    margin-right: 45px;
+    align-items: center;
+}
+
+.nav-links button {
+    background: none;
+    border: none;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.nav-links button.active {
+    text-decoration: underline;
+}
+
+
+/* TEXT SECTION */
+
+/* TEXT MODE - CHILDHOOD */
+
+.text-childhood {
+    position: relative;
+    min-height: 3000px;
+    background: white;
+    font-family: 'Inter', sans-serif;
+    color: #2418C9;
+}
+
+/* FIRST BIG TEXT */
+
+.childhood-title {
+    position: absolute;
+    top: 150px;
+    left: 0;
+
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-size: 14vw;
+    font-weight: 400;
+    letter-spacing: -0.07em;
+    line-height: 1;
+
+    text-align: center;
+    white-space: nowrap;
+    color: #2418C9;
+}
+
+/* childhood title line */
+
+.childhood-line-one {
+    position: absolute;
+    top: 850px;
+    left: 0;
+
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-size: 12.5vw;
+    font-weight: 500;
+    letter-spacing: -0.07em;
+    line-height: 1;
+
+    text-align: center;
+    white-space: nowrap;
+    color: #2418C9;
+}
+
+.childhood-INTRO {
+      position: absolute;
+    top: 350px;
+    left: 10%;
+
+    width: 60%;
+    max-width: 50%;
+    font-size: 30px;
+    line-height: 1.3;
+    font-weight: 300;
+    color: #2418C9;
+}
+#text-mode {
+    display: none;
+}
+
+.source1{
+      position: absolute;
+    top: 620px;
+    left: 45%;
+
+    width: 60%;
+    max-width: 50%;
+    font-size: 20px;
+    line-height: 1.3;
+    font-weight: 300;
+    color: #2418C9;
+}
+.highlight {
+    background-color: #2418C9;
+    color: white;
+    padding: 0 2px;
+}
+
+.childhood-stage-title {
+    font-size: 10px;
+    font-weight: 800;
+    margin-top: 280px;
+    margin-left: 8%;
+        font-family: 'Inter', sans-serif;
+        font-weight: 200;
+
+}
+
+.childhood-stage-age {
+    font-size: 20px;
+    margin-left: 8%;
+        font-family: 'Inter', sans-serif;
+
+}
+
+.childhood-stage-text {
+    font-size: 52px;
+    line-height: 1.6;
+    width: 85%;
+    max-width: none;
+    margin-left: 8%;
+}
+
+.text-childhood {
+    padding-top: 1000px;
+        font-family: 'Inter', sans-serif;
+
+}
+
+    
+.stage-four-layout {
+    position: relative;
+    width: 100%;
+    margin-top: 180px;
+    padding-bottom: 150px;
+}
+
+.stage-four-intro {
+    width: 55%;
+    margin-left: 5%;
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+.stage-four-explanation {
+    width: 38%;
+    max-width: none;
+    margin-left: 56%;
+    margin-top: 210px;
+    font-size: 21px;
+    line-height: 1.7;
+    transform: rotate(2deg);
+}
+
+/* THIRD PARAGRAPH — oversized, lower left */
+.stage-four-reflection {
+    width: 72%;
+    max-width: none;
+    margin-left: 9%;
+    margin-top: 260px;
+    font-size: 32px;
+    line-height: 1.35;
+    letter-spacing: -0.7px;
+    transform: rotate(-3deg);
+}
+
+
+/* =================================
+   ADOLESCENCE — TYPOGRAPHIC COLLAGE
+================================= */
+
+.text-adolescence {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 160px 0 300px;
+    overflow: hidden;
+}
+
+/* HUGE TITLE — COMPRESSED AND OVERLAPPING */
+
+.adolescence-title {
+    position: relative;
+    z-index: 2;
+
+    font-size: clamp(75px, 13vw, 210px);
+    font-weight: 900;
+    line-height: 0.65;
+    letter-spacing: -0.09em;
+
+    width: 110%;
+    margin: 50px 0 0 -3%;
+
+    transform: rotate(-4deg);
+}
+
+/* SMALL STAGE LABEL — CLOSE TO TITLE */
+
+.adolescence-age {
+    position: relative;
+    z-index: 3;
+
+    width: 45%;
+    max-width: none;
+    margin: -5px 0 0 53%;
+
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.32em;
+    line-height: 1.8;
+
+    transform: rotate(6deg);
+}
+
+/* PARAGRAPH ONE — LARGE AND LEFT */
+
+.adolescence-one {
+    width: 65%;
+    max-width: none;
+    margin: 230px 0 0 3%;
+
+    font-size: 29px;
+    line-height: 1.25;
+    letter-spacing: -0.045em;
+
+    transform: rotate(-3deg);
+}
+
+/* PARAGRAPH TWO — SMALL, TIGHT, RIGHT */
+
+.adolescence-two {
+    width: 34%;
+    max-width: none;
+    margin: 100px 0 0 62%;
+
+    font-size: 17px;
+    line-height: 1.8;
+    letter-spacing: 0.025em;
+
+    transform: rotate(5deg);
+}
+
+/* PARAGRAPH THREE — NARROW AND TALL */
+
+.adolescence-three {
+    width: 29%;
+    max-width: none;
+    margin: 270px 0 0 12%;
+
+    font-size: 23px;
+    line-height: 1.45;
+    letter-spacing: -0.02em;
+
+    transform: rotate(-7deg);
+}
+
+/* PARAGRAPH FOUR — NEAR CENTER, DENSE */
+
+.adolescence-four {
+    width: 55%;
+    max-width: none;
+    margin: -60px 0 0 42%;
+
+    font-size: 19px;
+    line-height: 1.35;
+    letter-spacing: -0.035em;
+
+    transform: rotate(3deg);
+}
+
+/* PARAGRAPH FIVE — HUGE EDITORIAL MOMENT */
+
+.adolescence-five {
+    position: relative;
+    z-index: 2;
+
+    width: 91%;
+    max-width: none;
+    margin: 310px 0 0 4%;
+
+    font-size: clamp(30px, 4.2vw, 66px);
+    line-height: 1.05;
+    letter-spacing: -0.065em;
+
+    transform: rotate(-3deg);
+}
+
+/* PARAGRAPH SIX — SMALL AND FAR RIGHT */
+
+.adolescence-six {
+    width: 38%;
+    max-width: none;
+    margin: 230px 0 0 58%;
+
+    font-size: 18px;
+    line-height: 1.9;
+    letter-spacing: 0.015em;
+
+    transform: rotate(6deg);
+}
+
+/* FINAL PARAGRAPH — LARGE, LOW AND LEFT */
+
+.adolescence-seven {
+    width: 76%;
+    max-width: none;
+    margin: 260px 0 0 8%;
+
+    font-size: clamp(35px, 5.5vw, 85px);
+    line-height: 0.98;
+    letter-spacing: -0.07em;
+
+    transform: rotate(-5deg);
+}
+
+
+/* =================================
+   MOBILE — KEEP TEXT READABLE
+================================= */
+
+@media (max-width: 700px) {
+
+    .text-adolescence {
+        padding: 110px 0 160px;
+    }
+
+    .adolescence-title {
+        font-size: 14vw;
+        width: 110%;
+        line-height: 0.8;
+        letter-spacing: -0.07em;
+    }
+
+    .text-adolescence p {
+        width: 82%;
+        max-width: none;
+        margin: 110px 0 0 9%;
+        font-size: 19px;
+        line-height: 1.5;
+        letter-spacing: normal;
+        transform: rotate(-1deg);
+    }
+
+    .text-adolescence .adolescence-age {
+        width: 70%;
+        margin: 35px 0 0 25%;
+        font-size: 11px;
+        letter-spacing: 0.15em;
+        transform: rotate(3deg);
+    }
+
+    .text-adolescence .adolescence-five,
+    .text-adolescence .adolescence-seven {
+        width: 88%;
+        font-size: 30px;
+        line-height: 1.15;
+    }
+}
+
+/* ====================================
+   ADULTHOOD — TYPOGRAPHIC COLLAGE
+==================================== */
+
+/* =========================================
+   ADULTHOOD — EXPERIMENTAL TEXT COLLAGE
+========================================= */
+
+.text-adulthood {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 260px 0 500px;
+    overflow-wrap: break-word;
+}
+
+/* GIANT TITLE — CROOKED, TIGHT, OVERLAPPING */
+
+.adulthood-title {
+    position: relative;
+    z-index: 3;
+
+    width: 110%;
+    max-width: none;
+    margin: 60px 0 0 -5%;
+
+    font-size: clamp(90px, 17vw, 260px);
+    font-weight: 900;
+    line-height: 0.65;
+    letter-spacing: -0.105em;
+
+    transform: rotate(-5deg);
+}
+
+/* INTRO — SMALL AND FAR RIGHT */
+
+.adulthood-intro {
+    width: 37%;
+    max-width: none;
+    margin: 330px 0 0 58%;
+
+    font-size: 19px;
+    line-height: 1.85;
+    letter-spacing: 0.02em;
+
+    transform: rotate(4deg);
+}
+
+
+/* =========================================
+   STAGE 6 — INTIMACY VS. ISOLATION
+========================================= */
+
+/* BIG HEADING, ALMOST COLLAPSING */
+
+.adult-stage-six {
+    position: relative;
+    z-index: 2;
+
+    width: 100%;
+    max-width: none;
+    margin: 480px 0 0 -3%;
+
+    font-size: clamp(65px, 10vw, 155px);
+    font-weight: 900;
+    line-height: 0.72;
+    letter-spacing: -0.09em;
+
+    transform: rotate(5deg);
+}
+
+/* AGE — TINY, OFF TO THE SIDE */
+
+.adult-age-six {
+    width: 30%;
+    max-width: none;
+    margin: -15px 0 0 66%;
+
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.45em;
+
+    transform: rotate(-7deg);
+}
+
+/* FIRST PARAGRAPH — LARGE, LEFT */
+
+.adult-six-one {
+    width: 64%;
+    max-width: none;
+    margin: 230px 0 0 4%;
+
+    font-size: 29px;
+    line-height: 1.25;
+    letter-spacing: -0.045em;
+
+    transform: rotate(-4deg);
+}
+
+/* SECOND PARAGRAPH — SMALL, RIGHT */
+
+.adult-six-two {
+    width: 32%;
+    max-width: none;
+    margin: 300px 0 0 62%;
+
+    font-size: 17px;
+    line-height: 1.9;
+    letter-spacing: 0.025em;
+
+    transform: rotate(6deg);
+}
+
+
+/* =========================================
+   STAGE 7 — GENERATIVITY VS. STAGNATION
+========================================= */
+
+/* TITLE — HUGE AND OFF-CENTER */
+
+.adult-stage-seven {
+    position: relative;
+    z-index: 2;
+
+    width: 112%;
+    max-width: none;
+    margin: 520px 0 0 -7%;
+
+    font-size: clamp(65px, 10vw, 160px);
+    font-weight: 900;
+    line-height: 0.7;
+    letter-spacing: -0.095em;
+
+    transform: rotate(-5deg);
+}
+
+/* AGE — LEFT SIDE */
+
+.adult-age-seven {
+    width: 30%;
+    max-width: none;
+    margin: 70px 0 0 9%;
+
+    font-size: 13px;
+    letter-spacing: 0.5em;
+
+    transform: rotate(8deg);
+}
+
+/* FIRST PARAGRAPH — NARROW, RIGHT */
+
+.adult-seven-one {
+    width: 34%;
+    max-width: none;
+    margin: 270px 0 0 60%;
+
+    font-size: 20px;
+    line-height: 1.8;
+
+    transform: rotate(5deg);
+}
+
+/* SECOND PARAGRAPH — WIDE, LEFT */
+
+.adult-seven-two {
+    width: 66%;
+    max-width: none;
+    margin: 360px 0 0 3%;
+
+    font-size: 27px;
+    line-height: 1.3;
+    letter-spacing: -0.04em;
+
+    transform: rotate(-6deg);
+}
+
+/* THIRD PARAGRAPH — HUGE, ALMOST A HEADLINE */
+
+.adult-seven-three {
+    width: 82%;
+    max-width: none;
+    margin: 420px 0 0 13%;
+
+    font-size: clamp(34px, 4.7vw, 75px);
+    line-height: 1.05;
+    letter-spacing: -0.065em;
+
+    transform: rotate(3deg);
+}
+
+
+/* =========================================
+   STAGE 8 — INTEGRITY VS. DESPAIR
+========================================= */
+
+/* TITLE — LARGE, COMPRESSED */
+
+.adult-stage-eight {
+    position: relative;
+    z-index: 2;
+
+    width: 108%;
+    max-width: none;
+    margin: 620px 0 0 -4%;
+
+    font-size: clamp(75px, 9vw, 175px);
+    font-weight: 900;
+    line-height: 0.68;
+    letter-spacing: -0.1em;
+
+    transform: rotate(4deg);
+}
+
+/* AGE — SMALL, RIGHT */
+
+.adult-age-eight {
+    width: 25%;
+    max-width: none;
+    margin: 35px 0 0 70%;
+
+    font-size: 13px;
+    letter-spacing: 0.5em;
+
+    transform: rotate(-6deg);
+}
+
+/* FIRST PARAGRAPH — SMALL, LEFT */
+
+.adult-eight-one {
+    width: 36%;
+    max-width: none;
+    margin: 300px 0 0 9%;
+
+    font-size: 19px;
+    line-height: 1.9;
+    letter-spacing: 0.025em;
+
+    transform: rotate(-5deg);
+}
+
+/* SECOND PARAGRAPH — LARGE, RIGHT */
+
+.adult-eight-two {
+    width: 59%;
+    max-width: none;
+    margin: 350px 0 0 36%;
+
+    font-size: 28px;
+    line-height: 1.35;
+    letter-spacing: -0.04em;
+
+    transform: rotate(4deg);
+}
+
+
+/* =========================================
+   FINAL REFLECTION — FREEDOM
+========================================= */
+
+/* FIRST REFLECTION — LEFT */
+
+.adult-reflection-one {
+    width: 48%;
+    max-width: none;
+    margin: 600px 0 0 6%;
+
+    font-size: 23px;
+    line-height: 1.6;
+
+    transform: rotate(-5deg);
+}
+
+/* SECOND REFLECTION — RIGHT */
+
+.adult-reflection-two {
+    width: 46%;
+    max-width: none;
+    margin: 400px 0 0 49%;
+
+    font-size: 21px;
+    line-height: 1.7;
+
+    transform: rotate(5deg);
+}
+
+/* FINAL SENTENCE — VERY LARGE */
+
+.adult-final {
+    position: relative;
+    z-index: 3;
+
+    width: 95%;
+    max-width: none;
+    margin: 650px 0 0 2%;
+
+    font-size: clamp(55px, 8vw, 130px);
+    font-weight: 900;
+    line-height: 0.88;
+    letter-spacing: -0.085em;
+
+    transform: rotate(-4deg);
+}
+
+
+/* =========================================
+   MOBILE — CONTROLLED CHAOS
+========================================= */
+
+@media (max-width: 700px) {
+
+    .text-adulthood {
+        padding: 130px 0 220px;
+    }
+
+    .adulthood-title {
+        width: 110%;
+        font-size: 17vw;
+        line-height: 0.8;
+        letter-spacing: -0.08em;
+    }
+
+    .text-adulthood p {
+        width: 82%;
+        max-width: none;
+        margin: 150px 0 0 9%;
+        font-size: 19px;
+        line-height: 1.55;
+        letter-spacing: normal;
+        transform: rotate(-2deg);
+    }
+
+    .text-adulthood h2 {
+        width: 95%;
+        max-width: none;
+        margin: 240px 0 0 3%;
+        font-size: 12vw;
+        line-height: 0.85;
+        letter-spacing: -0.07em;
+        transform: rotate(3deg);
+    }
+
+    .text-adulthood .adult-age-six,
+    .text-adulthood .adult-age-seven,
+    .text-adulthood .adult-age-eight {
+        width: 60%;
+        margin: 35px 0 0 30%;
+        font-size: 12px;
+        letter-spacing: 0.2em;
+    }
+
+    .text-adulthood .adult-seven-three,
+    .text-adulthood .adult-final {
+        width: 90%;
+        font-size: 35px;
+        line-height: 1.15;
+    }
+}
+
+/* SHIFT ALL ADULTHOOD TITLES RIGHT */
+
+.adulthood-title {
+    left: 5%;
+}
+
+.adult-stage-six {
+    left: 5%;
+}
+
+.adult-stage-seven {
+    left: 7%;
+}
+
+.adult-stage-eight {
+    left: 5%;
+}
+
+
+.about-page {
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 180px 3% 250px;
+}
+
+.about-page p {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+    font-size: clamp(32px, 4.5vw, 76px);
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: -0.045em;
+}
+
+.about-highlight {
+    font-weight: 900;
+    background: #fff176;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+
+@media (max-width: 700px) {
+    .about-page {
+        padding: 120px 5% 150px;
+    }
+
+    .about-page p {
+        font-size: 8vw;
+        line-height: 1.3;
+    }
+}
+
+
+/* Hide TEXT and ABOUT when the website first loads */
+
+#text-mode,
+#about-mode {
+    display: none;
+}
+
+
+/* ABOUT PAGE — BLUE TEXT */
+
+#about-mode {
+    color: #2418C9;
+}
+
+
+/* ABOUT PAGE — REGULAR BLUE TEXT */
+
+#about-mode p {
+    color: #2418C9;
+    font-weight: 400;
+}
+
+/* BLUE HIGHLIGHT WITH WHITE TEXT */
+
+#about-mode .about-highlight {
+    background-color: #2418C9;
+    color: white;
+    font-weight: 400;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+
+
+/* HOLD TO REVEAL — SMOOTH FADE */
+
+#image-mode {
+    transition: opacity 0.7s ease;
+}
+
+#image-mode.hold-fade-out {
+    opacity: 0;
+    pointer-events: none;
+}
+
+#text-mode.hold-text-visible {
+    display: block !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+/* Keep image above text during fade */
+#image-mode {
+    position: relative;
+    z-index: 1;
+}
+
+/* Prevent images from being dragged */
+#image-mode img,
+.bike-pov {
+    user-select: none;
+    -webkit-user-drag: none;
+}
